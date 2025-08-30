@@ -318,5 +318,11 @@ public MyService devTestService() { ... }
 ### 20. Как проверить активные профили во время работы приложения?
 
 **Ответ:**
-
-`@Autowired private Environment env;  public void printProfiles() {     System.out.println(Arrays.toString(env.getActiveProfiles())); }`
+```java
+@Autowired 
+private Environment env; 
+ 
+public void printProfiles() {     
+	System.out.println(Arrays.toString(env.getActiveProfiles())); 
+}
+```
