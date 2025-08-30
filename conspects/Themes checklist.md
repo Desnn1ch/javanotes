@@ -1,15 +1,15 @@
 - [ ] **Core Java**
     - [ ] ⚪ Синтаксис, ООП – классы, наследование, интерфейсы, абстракция, инкапсуляция
     - [x] 🟡 Collections Framework – List, Set, Map, очереди, их внутренняя реализация и сложность операций
-    - [ ] 🟡 Generics, wildcard’ы, bounded types
-    - [ ] 🟡 Java Memory Model – heap, stack, GC (алгоритмы G1, ZGC, Shenandoah)
+    - [x] 🟡 Generics, wildcard’ы, bounded types
+    - [x] 🟡 Java Memory Model – heap, stack, GC (алгоритмы G1, ZGC, Shenandoah)
     - [x] 🟡 Многопоточность и конкурентность – Thread, Runnable, Executor, CompletableFuture, ForkJoinPool, volatile, synchronized, Lock, атомарные операции
-    - [ ] 🟡 Streams API & Lambda expressions
+    - [x] 🟡 Streams API & Lambda expressions
     - [ ] ⚪ Java 17–21+ features – records, sealed classes, pattern matching, switch expressions, virtual threads (Project Loom)
-    - [ ] 🟡 JVM internals – class loading, JIT, bytecode basics
+    - [x] 🟡 JVM internals – class loading, JIT, bytecode basics
 
 - [ ] **Frameworks & Libraries**
-    - [ ] 🟡 Spring Core, Spring Boot – DI, IoC, AOP, профили
+    - [x] 🟡 Spring Core, Spring Boot – DI, IoC, AOP, профили
     - [ ] 🟡 Spring Data JPA – работа с БД, кастомные репозитории, JPQL/Criteria API
     - [ ] 🟡 Spring Security – JWT, OAuth2, role-based access
     - [ ] 🟡 Spring MVC / WebFlux – REST API, валидация, фильтры, interceptors
@@ -32,17 +32,15 @@
     - [ ] 🟡 CI/CD тестирование – coverage, quality gates (JaCoCo, SonarQube)
 
 - [ ] **Architecture & Design**
-    - [ ] 🟡 SOLID, DRY, KISS, YAGNI – уметь применять
+    - [x] 🟡 SOLID, DRY, KISS, YAGNI – уметь применять
     - [ ] 🟡 Design Patterns – Singleton, Factory, Builder, Strategy, Observer, Proxy
     - [ ] ⚪ Enterprise patterns – Repository, Unit of Work, CQRS, Event Sourcing
     - [ ] 🟡 REST API design – best practices, idempotency, статус-коды
     - [ ] ⚪ GraphQL/gRPC – базовое знание
-    - [ ] ⚪ DDD, Hexagonal architecture – базовый уровень
+    - [x] ⚪ DDD, Hexagonal architecture – базовый уровень
 
 - [ ] **DevOps & Infrastructure**
-    - [ ] 🟡 Docker, Docker Compose – контейнеризация сервисов
-    - [ ] ⚪ Kubernetes – деплой и конфигурации на уровне использования
-    - [ ] 🟡 CI/CD pipelines – GitHub Actions, GitLab CI, Jenkins
+    - [x] 🟡 Docker, Docker Compose – контейнеризация сервисов
     - [ ] ⚪ Monitoring – Prometheus + Grafana, ELK stack
     - [ ] ⚪ Cloud basics – AWS/GCP/Azure (S3, EC2, IAM, RDS)
 
@@ -54,6 +52,4 @@
 - [ ] **Tools & Workflow**
     - [ ] 🟡 Git – rebase, cherry-pick, merge vs squash
     - [ ] ⚪ Maven/Gradle – депенденси-менеджмент, multi-module
-    - [ ] ⚪ IDE mastery – IntelliJ IDEA (live templates, дебаггер)
-    - [ ] 🟡 Code review practices – уметь читать/писать чистый код
     - [ ] ⚪ Agile/Scrum – понимание процессов
